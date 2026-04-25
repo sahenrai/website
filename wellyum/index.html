@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wellyum Legal</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background-color: #FFF8E7;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .container {
+            text-align: center;
+            max-width: 400px;
+        }
+        .logo {
+            font-size: 48px;
+            margin-bottom: 16px;
+        }
+        h1 {
+            color: #4CAF50;
+            font-size: 32px;
+            margin-bottom: 8px;
+        }
+        .tagline {
+            color: #666;
+            margin-bottom: 40px;
+        }
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+        a {
+            display: block;
+            background: #4CAF50;
+            color: white;
+            text-decoration: none;
+            padding: 16px 32px;
+            border-radius: 12px;
+            font-weight: 600;
+            font-size: 18px;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        a:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(76, 175, 80, 0.3);
+        }
+        a.secondary {
+            background: white;
+            color: #4CAF50;
+            border: 2px solid #4CAF50;
+        }
+        .footer {
+            margin-top: 40px;
+            color: #999;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">🥗</div>
+        <h1>Wellyum</h1>
+        <p class="tagline">Healthify Any Recipe</p>
+
+        <div class="links">
+            <a href="./terms.html">Terms of Service</a>
+            <a href="./privacy.html" class="secondary">Privacy Policy</a>
+        </div>
+
+        <p class="footer">&copy; 2024 Raidea. All rights reserved.</p>
+    </div>
+</body>
+</html>
