@@ -247,62 +247,10 @@
       align-items: center;
       justify-content: center;
     }
-    .phone-mockup {
-      width: 260px;
-      height: 520px;
-      background: var(--ink);
-      border-radius: 40px;
-      padding: 12px;
-      box-shadow: 0 24px 64px rgba(0,0,0,0.15);
-    }
-    .phone-screen {
-      width: 100%;
-      height: 100%;
-      border-radius: 30px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      gap: 16px;
-      position: relative;
-      overflow: hidden;
-    }
-    .phone-screen.algogo-screen {
-      background: linear-gradient(160deg, #f0fdf0, #e8f5e9);
-    }
-    .phone-screen.wellyum-screen {
-      background: linear-gradient(160deg, #fff5f0, #ffe8dd);
-    }
-    .phone-icon {
-      width: 72px;
-      height: 72px;
-      border-radius: 18px;
-      box-shadow: 0 4px 16px rgba(0,0,0,0.1);
-    }
-    .phone-title {
-      font-weight: 700;
-      font-size: 18px;
-      color: var(--ink);
-    }
-    .phone-subtitle {
-      font-size: 13px;
-      color: var(--ink-light);
-      text-align: center;
-      padding: 0 24px;
-    }
-    .phone-pills {
-      display: flex;
-      gap: 8px;
-      flex-wrap: wrap;
-      justify-content: center;
-      padding: 0 20px;
-    }
-    .phone-pill {
-      padding: 6px 14px;
-      border-radius: 100px;
-      font-size: 11px;
-      font-weight: 600;
-      border: 1.5px solid;
+    .app-screenshot {
+      width: 280px;
+      border-radius: 20px;
+      box-shadow: 0 24px 64px rgba(0,0,0,0.12);
     }
 
     /* FOOTER */
@@ -353,7 +301,7 @@
       }
       .app-card.reverse { direction: ltr; }
       .app-visual { order: -1; }
-      .phone-mockup { width: 220px; height: 440px; }
+      .app-screenshot { width: 220px; }
       .nav-links { gap: 20px; }
     }
     @media (max-width: 480px) {
@@ -419,19 +367,7 @@
         </a>
       </div>
       <div class="app-visual">
-        <div class="phone-mockup">
-          <div class="phone-screen algogo-screen">
-            <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/49/00/00/490000aa-82fd-4895-6699-d6255924729a/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg" alt="Algogo" class="phone-icon">
-            <span class="phone-title">Algogo</span>
-            <span class="phone-subtitle">Learn algorithm patterns with flashcards, quizzes & visualizations</span>
-            <div class="phone-pills">
-              <span class="phone-pill" style="color: var(--green); border-color: var(--green);">Algorithms</span>
-              <span class="phone-pill" style="color: #6C5CE7; border-color: #6C5CE7;">System Design</span>
-              <span class="phone-pill" style="color: #0984E3; border-color: #0984E3;">iOS</span>
-              <span class="phone-pill" style="color: var(--orange); border-color: var(--orange);">Web</span>
-            </div>
-          </div>
-        </div>
+        <img src="algogo-screenshot.png" alt="Algogo app screenshot" class="app-screenshot">
       </div>
     </div>
 
@@ -455,18 +391,7 @@
         </a>
       </div>
       <div class="app-visual">
-        <div class="phone-mockup">
-          <div class="phone-screen wellyum-screen">
-            <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b2/d0/c8/b2d0c8aa-5be1-c8cd-6fb6-ac61967394cc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg" alt="Wellyum" class="phone-icon">
-            <span class="phone-title">Wellyum</span>
-            <span class="phone-subtitle">Your recipes, made a little lighter and healthier</span>
-            <div class="phone-pills">
-              <span class="phone-pill" style="color: var(--orange); border-color: var(--orange);">Recipes</span>
-              <span class="phone-pill" style="color: #E17055; border-color: #E17055;">Swaps</span>
-              <span class="phone-pill" style="color: #00B894; border-color: #00B894;">Healthy</span>
-            </div>
-          </div>
-        </div>
+        <img src="wellyum-screenshot.png" alt="Wellyum app screenshot" class="app-screenshot">
       </div>
     </div>
   </section>
